@@ -1,2 +1,11 @@
+<<<<<<< HEAD
 1111 1311 1431 1111
 edsd4o@gmail.com
+=======
+1499 3399 1771 1131
+e42433ao@gmail.com
+
+Hola buenos dias esto no tiene que eliminarse
+
+Esto si 232aes@gmail.com
+>>>>>>> 8df30bccc81db1f5fe09cfe545841590224c0793

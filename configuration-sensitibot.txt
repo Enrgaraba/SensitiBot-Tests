@@ -38,7 +38,7 @@ Options:
 - Full: Performs both actions (Alert and Block).
 Choose the action that best suits your workflow and security requirements.
 ---------------------------------------------------------
-OnDetection: Block
+OnDetection: Full
 
 ---------------------------------------------------------
 EXCLUSIONS

@@ -18,7 +18,7 @@ Examples:
 - 'Email': Detects email addresses in standard formats.
 Add or modify the patterns list as needed to suit your specific requirements.
 ---------------------------------------------------------
-PatternsList: ['Phone number': '\\b\\d{3} \\d{2} \\d{2} \\d{2}\\b', 'Email': '\\b[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\\.[A-Z|a-z]{2,}\\b']
+PatternsList: [['Phone number': '\\b\\d{3} \\d{2} \\d{2} \\d{2}\\b'], ['Email': '\\b[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\\.[A-Z|a-z]{2,}\\b']]
 ---------------------------------------------------------
 FILE TYPES
 Specify the types of files that the bot should analyze.

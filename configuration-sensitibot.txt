@@ -47,6 +47,6 @@ Specify a list of words, phrases, or patterns that the bot should ignore.
 Even if these items match a detection pattern, they will be excluded from alerts or actions.
 Use this section to whitelist specific content that is safe or expected in your repository.
 ---------------------------------------------------------
-Exclusions: ['example@example.com', '123 45 67 89']
+Exclusions: ['example@example.com', '123 45 67 89', '3400 6732 0000 0490']
 
 

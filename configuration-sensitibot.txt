@@ -28,7 +28,7 @@ Only files matching these extensions will be scanned for sensitive content.
 The extensions supported at the moment are: .txt, .csv, .md, .json, .yaml and .yml
 Add or modify the list as needed to suit your repository's requirements.
 ---------------------------------------------------------
-FileTypes: [.md, .json, .yaml, .yml]
+FileTypes: [.txt, .md, .json, .yaml, .yml]
 
 ---------------------------------------------------------
 ACTIONS
@@ -39,7 +39,7 @@ Options:
 - Full: Performs both actions (Alert and Block).
 Choose the action that best suits your workflow and security requirements.
 ---------------------------------------------------------
-OnDetection: Alert
+OnDetection: Full
 
 ---------------------------------------------------------
 EXCLUSIONS

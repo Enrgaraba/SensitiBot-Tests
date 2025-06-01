@@ -1,7 +1,7 @@
 ---------------------------------------------------------
 CONFIGURATION FILE FOR SENSITIBOT
 This file allows you to customize the behavior of SensitiBot.
-You can define detection patterns, specify actions to take on detection, 
+You can define detection patterns, the types of files to inspect, specify actions to take on detection 
 and exclude specific content from being flagged.
 Modify the settings below to suit your repository's needs.
 IMPORTANT: Maintain the format and structure of this document at all times 
@@ -13,11 +13,13 @@ Patterns must be written in JavaScript Regular Expression (regex) format.
 Each pattern is associated with a label for easier identification. 
 The pattern must be in this format 'Label': /regex/ 
 Examples:
-- 'Phone number': Detects phone numbers in the format "123 45 67 89".
-- 'Email': Detects email addresses in standard formats.
+- 'Phone number': Detects phone numbers in the format "123 45 67 89" | /\b\d{3} \d{2} \d{2} \d{2}\b/.
+- 'Email': Detects email addresses in standard formats | /\b[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{2,}\b/.
 Add or modify the patterns list as needed to suit your specific requirements.
+If this section is left blank, the bot's default patterns will be used.
 ---------------------------------------------------------
-
+Pattern1: ['Phone number': /\b\d{3} \d{2} \d{2} \d{2}\b/]
+Pattern2: ['Email': /\b[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{2,}\b/]
 
 ---------------------------------------------------------
 FILE TYPES

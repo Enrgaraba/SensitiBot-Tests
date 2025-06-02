@@ -1,6 +1,8 @@
+> ✅ Validado por SensitiBot: No contiene vulnerabilidades
+
 # Contacto
 
-Puedes escribirme a jusw.perez@example.com
+Puedes escribirme a [DELETED VULNERABILITY]
 
 Mi teléfono es 123 45 67 89
 

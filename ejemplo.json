@@ -2,63 +2,64 @@
   "users": [
     {
       "name": "Ana",
-      "email": "ana.gcia@example.com",
+      "email": "[DELETED VULNERABILITY]",
       "phone": "123 45 67 89",
       "credit_card": "5500 3000 0990 0004"
     },
     {
       "name": "Luis",
-      "email": "luis.martin@example.com",
-      "phone": "234 56 78 90",
+      "email": "[DELETED VULNERABILITY]",
+      "phone": "[DELETED VULNERABILITY]",
       "credit_card": "4111 1111 1111 1111"
     },
     {
       "name": "María",
-      "email": "maria.lopez@example.com",
-      "phone": "345 67 89 01",
+      "email": "[DELETED VULNERABILITY]",
+      "phone": "[DELETED VULNERABILITY]",
       "credit_card": "3400 6732 0000 0490"
     },
     {
       "name": "Carlos",
-      "email": "carlos.perez@example.com",
-      "phone": "456 78 90 12",
+      "email": "[DELETED VULNERABILITY]",
+      "phone": "[DELETED VULNERABILITY]",
       "credit_card": "6011 0009 9013 9424"
     },
     {
       "name": "Lucía",
-      "email": "lucia.garcia@example.com",
-      "phone": "567 89 01 23",
+      "email": "[DELETED VULNERABILITY]",
+      "phone": "[DELETED VULNERABILITY]",
       "credit_card": "3530 1113 3330 0000"
     },
     {
       "name": "Javier",
-      "email": "javier.sanchez@example.com",
-      "phone": "678 90 12 34",
+      "email": "[DELETED VULNERABILITY]",
+      "phone": "[DELETED VULNERABILITY]",
       "credit_card": "4000 1234 5678 9010"
     },
     {
       "name": "Elena",
-      "email": "elena.ruiz@example.com",
-      "phone": "789 01 23 45",
+      "email": "[DELETED VULNERABILITY]",
+      "phone": "[DELETED VULNERABILITY]",
       "credit_card": "6011 6011 6011 6611"
     },
     {
       "name": "Miguel",
-      "email": "miguel.torres@example.com",
-      "phone": "890 12 34 56",
+      "email": "[DELETED VULNERABILITY]",
+      "phone": "[DELETED VULNERABILITY]",
       "credit_card": "5105 1051 0510 5100"
     },
     {
       "name": "Sara",
-      "email": "sara.moreno@example.com",
-      "phone": "901 23 45 67",
+      "email": "[DELETED VULNERABILITY]",
+      "phone": "[DELETED VULNERABILITY]",
       "credit_card": "4111 1111 1111 1234"
     },
     {
       "name": "Pedro",
-      "email": "pedro.gomez@example.com",
-      "phone": "012 34 56 78",
+      "email": "[DELETED VULNERABILITY]",
+      "phone": "[DELETED VULNERABILITY]",
       "credit_card": "3400 0000 0000 009"
     }
-  ]
+  ],
+  "_sensitibot_validated": "✅ Validado por SensitiBot: No contiene vulnerabilidades"
 }

@@ -52,6 +52,7 @@ EXCLUSIONS (Exclusions)
 Specify a list of words, phrases, or patterns that the bot should ignore.
 Even if these items match a detection pattern, they will be excluded from alerts or actions.
 Use this section to whitelist specific content that is safe or expected in your repository.
+This section does not apply to Gemini AI analysis.
 ---------------------------------------------------------
 Exclusions: ['example@example.com', '123 45 67 89']
 
@@ -98,23 +99,23 @@ If there is nothing sensitive, respond exactly: No sensitive content detected.
 Content:
 {content}
 ---------------------------------------------------------
-GeminiPrompt: [Analyze the following content from a file of type "{type}" and ONLY respond if you detect any color names.
+GeminiPrompt: [Analyze the following content from a file of type "{type}" and ONLY respond if you detect any email addresses or feminine names.
 If you detect anything, respond using exactly this Markdown format:
 
 detected:
 
-Color name: `example found` (brief explanation if applicable)
+Email: `example@example.com` (brief explanation if applicable)
 
-Color name: `another example` (brief explanation if applicable)
+Feminine name: `Ana` (brief explanation if applicable)
 
-Color name: `another example` (brief explanation if applicable)
+Feminine name: `María` (brief explanation if applicable)
 
-Where "Color name" should be the exact color word detected (for example: red, blue, magenta, turquoise, etc.), and "example found" should be the actual word as it appears in the content.
+Where "Email" should be the exact email address detected, and "Feminine name" should be the exact feminine name detected as it appears in the content.
 
-You must enumerate ALL different color names you find in the content, each on a separate line.
+You must enumerate ALL different email addresses and feminine names you find in the content, each on a separate line.
 Do not omit any. If there are multiple, list them all, even if they are of the same category.
 
-If there are no color names, respond exactly: No color names detected.
+If there are no email addresses or feminine names, respond exactly: No email addresses or feminine names detected.
 
 Content:
 {content} ]

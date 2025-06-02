@@ -16,8 +16,11 @@ blue
 red yellow
 13
 mandarina
-
+Lucia
 azul
+Jose
+
+Silvia
 
 12345678Z
 

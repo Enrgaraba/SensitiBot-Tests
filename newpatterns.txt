@@ -14,7 +14,7 @@ usuario.ejemplo@gmail.com
 
 blue
 red yellow
-
+1
 mandarina
 
 azul

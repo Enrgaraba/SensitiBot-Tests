@@ -98,7 +98,7 @@ If there is nothing sensitive, respond exactly: No sensitive content detected.
 Content:
 {content}
 ---------------------------------------------------------
-GeminiPrompt: Analyze the following content from a file of type "{type}" and ONLY respond if you detect any color names.
+GeminiPrompt: [Analyze the following content from a file of type "{type}" and ONLY respond if you detect any color names.
 If you detect anything, respond using exactly this Markdown format:
 
 detected:
@@ -117,6 +117,6 @@ Do not omit any. If there are multiple, list them all, even if they are of the s
 If there are no color names, respond exactly: No color names detected.
 
 Content:
-{content}
+{content} ]
 
 

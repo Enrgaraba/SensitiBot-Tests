@@ -1,41 +1,42 @@
+# ✅ Validado por SensitiBot: No contiene vulnerabilidades
 id,firstname,lastname,email,email2,profession,telefon
-30,Marjie,Graig,Marjie.Gig@yopmail.com,Marjie.Gra@gmail.com,worker,724 85 00 62 
-31,Alisha,Riordan,Alia.Rn@yopmail.com,Alisha.Rrdan@gmail.com,worker,123 45 67 89
-32,Neila,Birdella,Neila.irdea@yopmail.com,Nela.Birdella@gmail.com,firefighter,857 65 74 47
-33,Melisent,Horan,example@example.com,Melisent.Horan@gmail.com,doctor,853 16 62 78 
-34,Marti,Hessler,Marssler@yopmail.com,Marti.Hessler@gmail.com,worker,857 65 74 47
-35,Alia,Narton,Ala.Narton@yomail.com,Alia.Narton@gmail.com,doctor,724 83 00 62 
-36,Adele,Noam,Adele.Noam@yopmail.com,Adele.Noam@gmail.com,doctor,724 83 00 62 
-37,Susan,Denis,Susan.Denis@yopmail.com,Suan4enis@gmail.com,police officer,853 16 62 78 
-38,Ronna,Wittie,Ronna.Wittie@yopmail.com,Roa.Wittie@gmail.com,doctor,857 65 74 47
-39,Annabela,Cordi,Anbela.Cordi@yopmail.com,Annabela.Cordi@gmail.com,firefighter,123 45 67 89
-40,Giustina,Stuart,Giustina.Stuart@yopmail.com,example@example.com,doctor,684 45 58 29 
-41,Alexine,Raimondo,Alexine.Raimondo@yopmail.com,Alexine.Raimondo@gmail.com,developer,857 65 74 47
-42,Elbertina,Christal,Elbertina.Christal@yopmail.com,Elbertina.Christal@gmail.com,developer,857 65 74 47
-43,Cherrita,Hamil,Cherrita.Hamil@yopmail.com,Cherrita.Hamil@gmail.com,police officer,
-44,Ekaterina,Ovid,Ekaterina.Ovid@yopmail.com,Ekaterina.Ovid@gmail.com,police officer,857 65 74 47
-45,Georgina,Francene,Georgina.Francene@yopmail.com,Georgina.Francene@gmail.com,firefighter,
-46,Kalina,Carri,Kalina.Carri@yopmail.com,Kalina.Carri@gmail.com,police officer,123 45 67 89
-47,Betta,Stav,Betta.Stav@yopmail.com,Betta.Stav@gmail.com,doctor,681 90 75 17 
-48,Karina,Fontana,Karina.Fontana@yopmail.com,Karina.Fontana@gmail.com,doctor,684 45 58 29 
-49,Atlanta,Pearse,Atlanta.Pearse@yopmail.com,Atlanta.Pearse@gmail.com,developer,853 16 62 78 
-50,Sallie,Greyson,Sallie.Greyson@yopmail.com,Sallie.Greyson@gmail.com,police officer,681 90 75 17 
-51,Teddie,Tyson,Teddie.Tyson@yopmail.com,Teddie.Tyson@gmail.com,developer,857 65 74 47
-52,Melodie,Dearborn,Melodie.Dearborn@yopmail.com,Melodie.Dearborn@gmail.com,worker,681 90 75 17 
-53,Zsa Zsa,Podvin,Zsa Zsa.Podvin@yopmail.com,Zsa Zsa.Podvin@gmail.com,doctor,853 16 62 78 
-54,Binny,Tice,Binny.Tice@yopmail.com,Binny.Tice@gmail.com,doctor,857 65 74 47
-55,Althea,Rad,Althea.Rad@yopmail.com,Althea.Rad@gmail.com,police officer,857 65 74 47
-56,Susan,Zenas,Susan.Zenas@yopmail.com,Susan.Zenas@gmail.com,firefighter,724 83 00 62 
-57,Bertine,Clarissa,Bertine.Clarissa@yopmail.com,Bertine.Clarissa@gmail.com,worker,681 90 75 17 
-58,Cassandra,Judye,Cassandra.Judye@yopmail.com,Cassandra.Judye@gmail.com,doctor,724 83 00 62 
-59,Cyndie,Ethban,Cyndie.Ethban@yopmail.com,Cyndie.Ethban@gmail.com,developer,
-60,Keelia,Thilda,Keelia.Thilda@yopmail.com,Keelia.Thilda@gmail.com,worker,853 16 62 78 
-61,Mureil,Dichy,Mureil.Dichy@yopmail.com,Mureil.Dichy@gmail.com,worker,857 65 74 47
-62,Tracey,Cassius,Tracey.Cassius@yopmail.com,Tracey.Cassius@gmail.com,firefighter,853 16 62 78 
-63,Steffane,Shelba,Steffane.Shelba@yopmail.com,Steffane.Shelba@gmail.com,worker,
-64,Brena,Rosette,Brena.Rosette@yopmail.com,Brena.Rosette@gmail.com,worker,857 65 74 47
-65,Johna,Kazimir,Johna.Kazimir@yopmail.com,Johna.Kazimir@gmail.com,firefighter,857 65 74 47
-66,Feliza,Thad,Feliza.Thad@yopmail.com,Feliza.Thad@gmail.com,police officer,724 83 00 62 
-67,Ronna,Wiener,Ronna.Wiener@yopmail.com,Ronna.Wiener@gmail.com,developer,684 45 58 29 
-68,Kirstin,Dosia,Kirstin.Dosia@yopmail.com,Kirstin.Dosia@gmail.com,worker,857 65 74 47
-69,Yvonne,Whiffen,Yvonne.Whiffen@yopmail.com,Yvonne.Whiffen@gmail.com,developer,853 16 62 78 
+30,Marjie,Graig,[DELETED VULNERABILITY],[DELETED VULNERABILITY],worker,[DELETED VULNERABILITY] 
+31,Alisha,Riordan,[DELETED VULNERABILITY],[DELETED VULNERABILITY],worker,123 45 67 89
+32,Neila,Birdella,[DELETED VULNERABILITY],[DELETED VULNERABILITY],firefighter,[DELETED VULNERABILITY]
+33,Melisent,Horan,example@example.com,[DELETED VULNERABILITY],doctor,[DELETED VULNERABILITY] 
+34,Marti,Hessler,[DELETED VULNERABILITY],[DELETED VULNERABILITY],worker,[DELETED VULNERABILITY]
+35,Alia,Narton,[DELETED VULNERABILITY],[DELETED VULNERABILITY],doctor,[DELETED VULNERABILITY] 
+36,Adele,Noam,[DELETED VULNERABILITY],[DELETED VULNERABILITY],doctor,[DELETED VULNERABILITY] 
+37,Susan,Denis,[DELETED VULNERABILITY],[DELETED VULNERABILITY],police officer,[DELETED VULNERABILITY] 
+38,Ronna,Wittie,[DELETED VULNERABILITY],[DELETED VULNERABILITY],doctor,[DELETED VULNERABILITY]
+39,Annabela,Cordi,[DELETED VULNERABILITY],[DELETED VULNERABILITY],firefighter,123 45 67 89
+40,Giustina,Stuart,[DELETED VULNERABILITY],example@example.com,doctor,[DELETED VULNERABILITY] 
+41,Alexine,Raimondo,[DELETED VULNERABILITY],[DELETED VULNERABILITY],developer,[DELETED VULNERABILITY]
+42,Elbertina,Christal,[DELETED VULNERABILITY],[DELETED VULNERABILITY],developer,[DELETED VULNERABILITY]
+43,Cherrita,Hamil,[DELETED VULNERABILITY],[DELETED VULNERABILITY],police officer,
+44,Ekaterina,Ovid,[DELETED VULNERABILITY],[DELETED VULNERABILITY],police officer,[DELETED VULNERABILITY]
+45,Georgina,Francene,[DELETED VULNERABILITY],[DELETED VULNERABILITY],firefighter,
+46,Kalina,Carri,[DELETED VULNERABILITY],[DELETED VULNERABILITY],police officer,123 45 67 89
+47,Betta,Stav,[DELETED VULNERABILITY],[DELETED VULNERABILITY],doctor,[DELETED VULNERABILITY] 
+48,Karina,Fontana,[DELETED VULNERABILITY],[DELETED VULNERABILITY],doctor,[DELETED VULNERABILITY] 
+49,Atlanta,Pearse,[DELETED VULNERABILITY],[DELETED VULNERABILITY],developer,[DELETED VULNERABILITY] 
+50,Sallie,Greyson,[DELETED VULNERABILITY],[DELETED VULNERABILITY],police officer,[DELETED VULNERABILITY] 
+51,Teddie,Tyson,[DELETED VULNERABILITY],[DELETED VULNERABILITY],developer,[DELETED VULNERABILITY]
+52,Melodie,Dearborn,[DELETED VULNERABILITY],[DELETED VULNERABILITY],worker,[DELETED VULNERABILITY] 
+53,Zsa Zsa,Podvin,Zsa [DELETED VULNERABILITY],Zsa [DELETED VULNERABILITY],doctor,[DELETED VULNERABILITY] 
+54,Binny,Tice,[DELETED VULNERABILITY],[DELETED VULNERABILITY],doctor,[DELETED VULNERABILITY]
+55,Althea,Rad,[DELETED VULNERABILITY],[DELETED VULNERABILITY],police officer,[DELETED VULNERABILITY]
+56,Susan,Zenas,[DELETED VULNERABILITY],[DELETED VULNERABILITY],firefighter,[DELETED VULNERABILITY] 
+57,Bertine,Clarissa,[DELETED VULNERABILITY],[DELETED VULNERABILITY],worker,[DELETED VULNERABILITY] 
+58,Cassandra,Judye,[DELETED VULNERABILITY],[DELETED VULNERABILITY],doctor,[DELETED VULNERABILITY] 
+59,Cyndie,Ethban,[DELETED VULNERABILITY],[DELETED VULNERABILITY],developer,
+60,Keelia,Thilda,[DELETED VULNERABILITY],[DELETED VULNERABILITY],worker,[DELETED VULNERABILITY] 
+61,Mureil,Dichy,[DELETED VULNERABILITY],[DELETED VULNERABILITY],worker,[DELETED VULNERABILITY]
+62,Tracey,Cassius,[DELETED VULNERABILITY],[DELETED VULNERABILITY],firefighter,[DELETED VULNERABILITY] 
+63,Steffane,Shelba,[DELETED VULNERABILITY],[DELETED VULNERABILITY],worker,
+64,Brena,Rosette,[DELETED VULNERABILITY],[DELETED VULNERABILITY],worker,[DELETED VULNERABILITY]
+65,Johna,Kazimir,[DELETED VULNERABILITY],[DELETED VULNERABILITY],firefighter,[DELETED VULNERABILITY]
+66,Feliza,Thad,[DELETED VULNERABILITY],[DELETED VULNERABILITY],police officer,[DELETED VULNERABILITY] 
+67,Ronna,Wiener,[DELETED VULNERABILITY],[DELETED VULNERABILITY],developer,[DELETED VULNERABILITY] 
+68,Kirstin,Dosia,[DELETED VULNERABILITY],[DELETED VULNERABILITY],worker,[DELETED VULNERABILITY]
+69,Yvonne,Whiffen,[DELETED VULNERABILITY],[DELETED VULNERABILITY],developer,[DELETED VULNERABILITY] 

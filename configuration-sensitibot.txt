@@ -68,7 +68,7 @@ DISCLAIMER: Gemini AI's accuracy is relatively low on large files; for greater s
 pattern-based detection is always preferable.
 
 ---------------------------------------------------------
-
+DetectionEngine: gemini
 
 ---------------------------------------------------------
 GEMINI PROMPT (GeminiPrompt)

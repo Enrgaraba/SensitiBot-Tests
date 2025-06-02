@@ -6,7 +6,7 @@ Phone number:
 International phone number:
 +34 612345678
 
-Credit card number:
+Credit card number: 
 4111 5451 3111 1111
 
 Email address:
@@ -30,13 +30,13 @@ GODE561231GR8
 Passport:
 X1234567
 
-IBAN:
+IBAN: LO DETECTA EL REGEX DE CREDIT CARD NUM
 ES91 2100 0418 4502 0005 1332
 
 SWIFT/BIC:
 BBVAESMMXXX
 
-Bank account (ES):
+Bank account (ES): LO DETECTA EL REGEX DE CREDIT CARD NUM
 2100 0418 45 0200051332
 
 IP address:

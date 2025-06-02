@@ -50,4 +50,15 @@ Use this section to whitelist specific content that is safe or expected in your 
 ---------------------------------------------------------
 Exclusions: ['example@example.com', '123 45 67 89', '3400 6732 0000 0490']
 
+---------------------------------------------------------
+DETECTION ENGINE
+Define which detection engine the bot should use.
+This option only applies if the OnDetection option is in Alert or Full mode.
+If left blank, it will use patterns by default.
+Options:
+- patterns: Use traditional regex/pattern-based detection (default).
+- gemini: Use Google Gemini AI for sensitive content detection (recommended for advanced analysis).
+---------------------------------------------------------
+DetectionEngine: patterns
+
 

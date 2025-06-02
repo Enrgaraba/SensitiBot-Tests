@@ -1,23 +1,6 @@
 {
   "users": [
-    {
-      "name": "Ana",
-      "email": "ana@example.com",
-      "phone": "123 45 67 89",
-      "credit_card": "5500 3000 0990 0004"
-    },
-    {
-      "name": "Luis",
-      "email": "luis.martin@example.com",
-      "phone": "234 56 78 90",
-      "credit_card": "4111 1111 1111 1111"
-    },
-    {
-      "name": "María",
-      "email": "maria.lopez@example.com",
-      "phone": "345 67 89 01",
-      "credit_card": "3400 6732 0000 0490"
-    },
+    
     {
       "name": "Carlos",
       "email": "carlos.perez@example.com",
@@ -41,24 +24,7 @@
       "email": "elena.ruiz@example.com",
       "phone": "789 01 23 45",
       "credit_card": "6011 6011 6011 6611"
-    },
-    {
-      "name": "Miguel",
-      "email": "miguel.torres@example.com",
-      "phone": "890 12 34 56",
-      "credit_card": "5105 1051 0510 5100"
-    },
-    {
-      "name": "Sara",
-      "email": "sara.moreno@example.com",
-      "phone": "901 23 45 67",
-      "credit_card": "4111 1111 1111 1234"
-    },
-    {
-      "name": "Pedro",
-      "email": "pedro.gomez@example.com",
-      "phone": "012 34 56 78",
-      "credit_card": "3400 0000 0000 009"
     }
+    
   ]
 }

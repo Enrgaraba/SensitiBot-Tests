@@ -1,1 +1,1 @@
-email = "email@gmail.com"
+email = "emal@gmail.com"

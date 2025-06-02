@@ -59,6 +59,6 @@ Options:
 - patterns: Use traditional regex/pattern-based detection (default).
 - gemini: Use Google Gemini AI for sensitive content detection (recommended for advanced analysis).
 ---------------------------------------------------------
-DetectionEngine: patterns
+DetectionEngine: gemini
 
 

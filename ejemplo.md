@@ -1,6 +1,6 @@
 # Contacto
 
-Puedes escribirme a jusns2s.perez@example.com
+Puedes escribirme a jusns2.perez@example.com
 
 Mi teléfono es 123 45 67 89
 

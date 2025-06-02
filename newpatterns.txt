@@ -12,7 +12,12 @@ Credit card number:
 Email address:
 usuario.ejemplo@gmail.com
 
+blue
+red yellow
 
+mandarina
+
+azul
 
 12345678Z
 

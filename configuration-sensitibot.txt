@@ -23,9 +23,8 @@ Examples:
 - 'Email': Detects email addresses in standard formats.
 Add or modify the patterns list as needed to suit your specific requirements.
 ---------------------------------------------------------
-Pattern1: 'Phone number': /\b\d{3} \d{2} \d{2} \d{2}\b/ 
-Pattern: 'Phone number': /\b\d{3} \d{2} \d{2} \d{2}\b/ 
-
+Pattern1: ['Phone number': /\b\d{3} \d{2} \d{2} \d{2}\b/] 
+Pattern2: ['Email': /\b[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{2,}\b/]
 
 ---------------------------------------------------------
 FILE TYPES (FileTypes)
@@ -35,7 +34,7 @@ Only files matching these extensions will be scanned for sensitive content.
 The extensions supported at the moment are: .txt, .csv, .md, .json, .yaml and .yml
 Add or modify the list as needed to suit your repository's requirements.
 ---------------------------------------------------------
-FileTypes: hola
+FileTypes: ['txt', 'csv']
 
 ---------------------------------------------------------
 ACTIONS (OnDetection)
@@ -46,7 +45,7 @@ Options:
 - Full: Performs both actions (Alert and Block).
 Choose the action that best suits your workflow and security requirements.
 ---------------------------------------------------------
-OnDetection: 
+OnDetection: Alert
 
 ---------------------------------------------------------
 EXCLUSIONS (Exclusions)
@@ -54,7 +53,7 @@ Specify a list of words, phrases, or patterns that the bot should ignore.
 Even if these items match a detection pattern, they will be excluded from alerts or actions.
 Use this section to whitelist specific content that is safe or expected in your repository.
 ---------------------------------------------------------
-Exclusions: ehbdhsed
+Exclusions: ['example@example.com', '123 45 67 89']
 
 ---------------------------------------------------------
 DETECTION ENGINE (DetectionEngine)
@@ -69,7 +68,6 @@ pattern-based detection is always preferable.
 
 ---------------------------------------------------------
 DetectionEngine: gemini
-
 ---------------------------------------------------------
 GEMINI PROMPT (GeminiPrompt)
 Define a custom prompt for Gemini AI detection. You must use the variables:
@@ -100,6 +98,25 @@ If there is nothing sensitive, respond exactly: No sensitive content detected.
 Content:
 {content}
 ---------------------------------------------------------
+GeminiPrompt: Analyze the following content from a file of type "{type}" and ONLY respond if you detect any color names.
+If you detect anything, respond using exactly this Markdown format:
 
+detected:
+
+Color name: `example found` (brief explanation if applicable)
+
+Color name: `another example` (brief explanation if applicable)
+
+Color name: `another example` (brief explanation if applicable)
+
+Where "Color name" should be the exact color word detected (for example: red, blue, magenta, turquoise, etc.), and "example found" should be the actual word as it appears in the content.
+
+You must enumerate ALL different color names you find in the content, each on a separate line.
+Do not omit any. If there are multiple, list them all, even if they are of the same category.
+
+If there are no color names, respond exactly: No color names detected.
+
+Content:
+{content}
 
 

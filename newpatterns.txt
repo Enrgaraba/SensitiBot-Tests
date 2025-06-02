@@ -1,0 +1,49 @@
+Aquí tienes un ejemplo para cada patrón:
+
+Phone number:
+612 34 56 78
+
+International phone number:
++34 612345678
+
+Credit card number:
+4111 1111 1111 1111
+
+Email address:
+usuario.ejemplo@gmail.com
+
+DNI/NIF (España):
+12345678Z
+
+NIE (España):
+X1234567L
+
+SSN (US):
+123-45-6789
+
+CURP (México):
+GODE561231HDFRRN09
+
+RFC (México):
+GODE561231GR8
+
+Passport:
+X1234567
+
+IBAN:
+ES91 2100 0418 4502 0005 1332
+
+SWIFT/BIC:
+BBVAESMMXXX
+
+Bank account (ES):
+2100 0418 45 0200051332
+
+IP address:
+192.168.1.1
+
+IPv6 address:
+2001:0db8:85a3:0000:0000:8a2e:0370:7334
+
+MAC address:
+00:1A:2B:3C:4D:5E

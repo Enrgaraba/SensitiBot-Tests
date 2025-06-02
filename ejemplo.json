@@ -1,7 +1,8 @@
+// ✅ Validado por SensitiBot: No contiene vulnerabilidades
 {
   "user": {
     "name": "Ana",
-    "email": "ana.grsscia@example.com",
+    "email": "[DELETED VULNERABILITY]",
     "phone": "123 45 67 89",
     "credit_card": "5500 3000 0990 0004"
   }

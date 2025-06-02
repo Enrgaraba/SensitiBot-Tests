@@ -1,5 +1,41 @@
-usuario:
-  nombre: Luis
-  email: luis.lo2z@example.com
-  telefono: 248 45 67 89
-  tarjeta: 3400 6732 0000 0490
+usuarios:
+  - nombre: Luis
+    email: luis.lo2z@example.com
+    telefono: 248 45 67 89
+    tarjeta: 3400 6732 0000 0490
+  - nombre: Ana
+    email: ana.garcia@example.com
+    telefono: 123 45 67 89
+    tarjeta: 5500 3000 0990 0004
+  - nombre: María
+    email: maria.lopez@example.com
+    telefono: 345 67 89 01
+    tarjeta: 3400 6732 0000 0490
+  - nombre: Carlos
+    email: carlos.perez@example.com
+    telefono: 456 78 90 12
+    tarjeta: 6011 0009 9013 9424
+  - nombre: Lucía
+    email: lucia.garcia@example.com
+    telefono: 567 89 01 23
+    tarjeta: 3530 1113 3330 0000
+  - nombre: Javier
+    email: javier.sanchez@example.com
+    telefono: 678 90 12 34
+    tarjeta: 4000 1234 5678 9010
+  - nombre: Elena
+    email: elena.ruiz@example.com
+    telefono: 789 01 23 45
+    tarjeta: 6011 6011 6011 6611
+  - nombre: Miguel
+    email: miguel.torres@example.com
+    telefono: 890 12 34 56
+    tarjeta: 5105 1051 0510 5100
+  - nombre: Sara
+    email: sara.moreno@example.com
+    telefono: 901 23 45 67
+    tarjeta: 4111 1111 1111 1234
+  - nombre: Pedro
+    email: pedro.gomez@example.com
+    telefono: 012 34 56 78
+    tarjeta: 3400 0000 0000 009

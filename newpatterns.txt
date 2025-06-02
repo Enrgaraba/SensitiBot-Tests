@@ -12,13 +12,13 @@ Credit card number:
 Email address:
 usuario.ejemplo@gmail.com
 
-DNI/NIF (España):
+
 12345678Z
 
-NIE (España):
+
 X1234567L
 
-SSN (US):
+
 123-45-6789
 
 CURP (México):

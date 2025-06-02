@@ -1,6 +1,6 @@
 # Contacto
 
-Puedes escribirme a juserez@example.com
+Puedes escribirme a juseez@example.com
 
 Mi teléfono es 123 45 67 89
 

@@ -1,8 +1,10 @@
+> ✅ Validated by SensitiBot: No vulnerabilities found
+
 # Contacto
 
-Puedes escribirme a jez@example.com
+Puedes escribirme a [DELETED VULNERABILITY]
 
-Mi teléfono es 123 45 67 89
+Mi teléfono es [DELETED VULNERABILITY]
 
 22
 

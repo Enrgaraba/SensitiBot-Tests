@@ -45,7 +45,7 @@ Options:
 - Full: Performs both actions (Alert and Block).
 Choose the action that best suits your workflow and security requirements.
 ---------------------------------------------------------
-OnDetection: Full
+OnDetection: Alert
 
 ---------------------------------------------------------
 EXCLUSIONS (Exclusions)
@@ -81,7 +81,7 @@ Options:
 DISCLAIMER: Gemini AI's accuracy is relatively low on large files; for greater security, 
 pattern-based detection is always preferable.
 ---------------------------------------------------------
-DetectionEngine: patterns
+DetectionEngine: gemini
 
 ---------------------------------------------------------
 GEMINI PROMPT (GeminiPrompt)

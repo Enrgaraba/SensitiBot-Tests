@@ -4,7 +4,7 @@ Phone number:
 612 34 56 78
 
 International phone number:
-+34 64345678
++34 67345678
 
 Credit card number: 
 4111 5441 3111 1111

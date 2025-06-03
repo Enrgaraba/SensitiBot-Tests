@@ -23,7 +23,7 @@ Examples:
 - 'Email': Detects email addresses in standard formats.
 Add or modify the patterns list as needed to suit your specific requirements.
 ---------------------------------------------------------
-Pattern1: ['Phone number': /\b\d{3} \d{2} \d{2} \d{2}\b/] 
+Pattern1: ['Phone number': /\b\d{3} \d{2} \d{2} \d{2}\b/]
 Pattern2: ['Email': /\b[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{2,}\b/]
 
 ---------------------------------------------------------
@@ -34,7 +34,7 @@ Only files matching these extensions will be scanned for sensitive content.
 The extensions supported at the moment are: .txt, .csv, .md, .json, .yaml and .yml
 Add or modify the list as needed to suit your repository's requirements.
 ---------------------------------------------------------
-FileTypes: ['txt', 'csv', 'md']
+FileTypes: ['txt', 'md', 'json']
 
 ---------------------------------------------------------
 ACTIONS (OnDetection)
@@ -45,7 +45,7 @@ Options:
 - Full: Performs both actions (Alert and Block).
 Choose the action that best suits your workflow and security requirements.
 ---------------------------------------------------------
-OnDetection: Alert
+OnDetection: Full
 
 ---------------------------------------------------------
 EXCLUSIONS (Exclusions)
@@ -54,7 +54,21 @@ Even if these items match a detection pattern, they will be excluded from alerts
 Use this section to whitelist specific content that is safe or expected in your repository.
 This section does not apply to Gemini AI analysis.
 ---------------------------------------------------------
-Exclusions: ['example@example.com', '123 45 67 89']
+Exclusions: 
+
+---------------------------------------------------------
+TRUST BADGE (TrustBadge)
+Choose whether to apply a vulnerability validation badge in the Pull Request creation functionality.
+This badge will be placed at the beginning of documents that have been analyzed and modified by SensitiBot.
+The badge will look like this: ✅ Validated by SensitiBot: No vulnerabilities found.
+IMPORTANT: In the case of JSON files, the badge will be added as a property to the JSON structure.
+Options:
+- fullbadge: the badge will be placed in all analyzed and modified documents.
+- nobadge: the badge will not be placed in any document.
+- nojson: the badge will be placed in all files except those of type JSON.
+If no option is chosen or the configuration is not used correctly, the default option "nojson" will be applied.
+---------------------------------------------------------
+TrustBadge: nojson
 
 ---------------------------------------------------------
 DETECTION ENGINE (DetectionEngine)
@@ -66,9 +80,8 @@ Options:
 
 DISCLAIMER: Gemini AI's accuracy is relatively low on large files; for greater security, 
 pattern-based detection is always preferable.
-
 ---------------------------------------------------------
-DetectionEngine: gemini
+DetectionEngine: patterns
 
 ---------------------------------------------------------
 GEMINI PROMPT (GeminiPrompt)
@@ -80,7 +93,7 @@ good prompt should be written.
 
 Example promt:
 
-Analyze the following content from a file of type "{type}" and ONLY respond if you detect sensitive data.
+Analyze the following content from a file of type "${type}" and ONLY respond if you detect sensitive data.
 If you detect anything, respond using exactly this Markdown format:
 
 detected:
@@ -89,7 +102,9 @@ detected:
 *   **Other type:** \`another example\` (brief explanation if applicable)
 *   **Other type:** \`another example\` (brief explanation if applicable)
 
-Where "Data type" should be the actual type of sensitive data detected (for example: Credit card, Password, Token, etc.) and "example found" should be a real example of the data found in the content.
+Where "Data type" should be the actual type of sensitive data detected 
+(for example: phone numbers like 612 34 56 78, credit card numbers like 4111 5441 3111 1111, email addresses like usuario.ejemplo@gmail.com, bank accounts like 2100 0418 4502 0005 1332) 
+and "example found" should be a real example of the data found in the content.
 
 **You must enumerate ALL different types of sensitive data you find in the content, each on a separate line.**
 
@@ -98,27 +113,8 @@ Where "Data type" should be the actual type of sensitive data detected (for exam
 If there is nothing sensitive, respond exactly: No sensitive content detected.
 
 Content:
-{content}
+${content}
 ---------------------------------------------------------
-GeminiPrompt: [Analyze the following content from a file of type "{type}" and ONLY respond if you detect any color names.
-If you detect anything, respond using exactly this Markdown format:
-
-detected:
-
-Color name: `example found` (brief explanation if applicable)
-
-Color name: `another example` (brief explanation if applicable)
-
-Color name: `another example` (brief explanation if applicable)
-
-Where "Color name" should be the exact color word detected (for example: red, blue, magenta, turquoise, etc.), and "example found" should be the actual word as it appears in the content.
-
-You must enumerate ALL different color names you find in the content, each on a separate line.
-Do not omit any. If there are multiple, list them all, even if they are of the same category.
-
-If there are no color names, respond exactly: No color names detected.
-
-Content:
-{content}]
+GeminiPrompt: 
 
 

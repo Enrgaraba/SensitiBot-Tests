@@ -4,7 +4,7 @@ Puedes escribirme a jez@example.com
 
 Mi teléfono es 123 45 67 89
 
-22
+2
 
 blue
 

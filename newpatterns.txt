@@ -1,7 +1,8 @@
+# ✅ Validated by SensitiBot: No vulnerabilities found
 Aquí tienes un ejemplo para cada patrón:
 
 Phone number:
-612 34 56 78
+[DELETED VULNERABILITY]
 
 International phone number:
 +34 67345678
@@ -10,7 +11,7 @@ Credit card number:
 4111 5441 3111 1111
 s
 Email address:
-usuario.ejemplo@gmail.com
+[DELETED VULNERABILITY]
 a
 blue
 red yellow

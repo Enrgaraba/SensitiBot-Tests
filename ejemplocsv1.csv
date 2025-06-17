@@ -10,22 +10,13 @@ id,firstname,lastname,email,email2,profession,telefon
 38,Ronna,Wittie,Ronna.Wittie@yopmail.com,Roa.Wittie@gmail.com,doctor,857 65 74 47
 39,Annabela,Cordi,Anbela.Cordi@yopmail.com,Annabela.Cordi@gmail.com,firefighter,123 45 67 89
 40,Giustina,Stuart,Giustina.Stuart@yopmail.com,example@example.com,doctor,684 45 58 29 
-41,Alexine,Raimondo,Alexine.Raimondo@yopmail.com,Alexine.Raimondo@gmail.com,developer,857 65 74 47
-42,Elbertina,Christal,Elbertina.Christal@yopmail.com,Elbertina.Christal@gmail.com,developer,857 65 74 47
-43,Cherrita,Hamil,Cherrita.Hamil@yopmail.com,Cherrita.Hamil@gmail.com,police officer,
-44,Ekaterina,Ovid,Ekaterina.Ovid@yopmail.com,Ekaterina.Ovid@gmail.com,police officer,857 65 74 47
-45,Georgina,Francene,Georgina.Francene@yopmail.com,Georgina.Francene@gmail.com,firefighter,
-46,Kalina,Carri,Kalina.Carri@yopmail.com,Kalina.Carri@gmail.com,police officer,123 45 67 89
-47,Betta,Stav,Betta.Stav@yopmail.com,Betta.Stav@gmail.com,doctor,681 90 75 17 
-48,Karina,Fontana,Karina.Fontana@yopmail.com,Karina.Fontana@gmail.com,doctor,684 45 58 29 
-49,Atlanta,Pearse,Atlanta.Pearse@yopmail.com,Atlanta.Pearse@gmail.com,developer,853 16 62 78 
-50,Sallie,Greyson,Sallie.Greyson@yopmail.com,Sallie.Greyson@gmail.com,police officer,681 90 75 17 
-51,Teddie,Tyson,Teddie.Tyson@yopmail.com,Teddie.Tyson@gmail.com,developer,857 65 74 47
-52,Melodie,Dearborn,Melodie.Dearborn@yopmail.com,Melodie.Dearborn@gmail.com,worker,681 90 75 17 
-53,Zsa Zsa,Podvin,Zsa Zsa.Podvin@yopmail.com,Zsa Zsa.Podvin@gmail.com,doctor,853 16 62 78 
-54,Binny,Tice,Binny.Tice@yopmail.com,Binny.Tice@gmail.com,doctor,857 65 74 47
-55,Althea,Rad,Althea.Rad@yopmail.com,Althea.Rad@gmail.com,police officer,857 65 74 47
-56,Susan,Zenas,Susan.Zenas@yopmail.com,Susan.Zenas@gmail.com,firefighter,724 83 00 62 
+,,,,,,
+,Teddie,Tyson,Teddie.Tyson@yopmail.com,Teddie.Tyson@gmail.com,developer,857 65 74 47
+"No puedo olvidarme de todos los amigos y personas con los que he coincidido en este precioso camino: amigos de la residencia, amigos de la carrera, compañeros de balonmano, compañeros de fútbol y la pequeña familia que tengo en Algeciras, los que sé que siempre estarán. Estos últimos han sido los que, cuando he necesitado consejo, han estado ahí; cuando he necesitado risas, han estado ahí; y cuando he necesitado un toque de atención, han estado ahí (aunque a veces se pasen de graciosos).",Melodie,Dearborn,Melodie.Dearborn@yopmail.com,Melodie.Dearborn@gmail.com,worker,681 90 75 17 
+,Zsa Zsa,Podvin,Zsa Zsa.Podvin@yopmail.com,Zsa Zsa.Podvin@gmail.com,doctor,853 16 62 78 
+"Para terminar, me gustaría acordarme de Silvia. Jamás en mi vida pensé, ni por un solo instante, que tendría la suerte de cruzarme con una persona tan maravillosa como tú. Nunca olvidaré esa primera interacción que tuvimos en el comedor de la residencia, en la que me quitaste el móvil, saliste corriendo por todo el comedor y, como era de esperar, se te cayó al suelo y reventaste la pantalla. Eres de las pocas personas que sé que, por más tiempo que pase y por más cosas que nos depare el futuro, podré contar contigo en cualquier momento de mi vida.",Binny,Tice,Binny.Tice@yopmail.com,Binny.Tice@gmail.com,doctor,857 65 74 47
+,Althea,Rad,Althea.Rad@yopmail.com,Althea.Rad@gmail.com,police officer,857 65 74 47
+"Este trabajo va dedicado a todas estas personas que me han ayudado a llegar hasta aquí y que, sin ellas, no sería el hombre en el que me he convertido actualmente.",Susan,Zenas,Susan.Zenas@yopmail.com,Susan.Zenas@gmail.com,firefighter,724 83 00 62 
 57,Bertine,Clarissa,Bertine.Clarissa@yopmail.com,Bertine.Clarissa@gmail.com,worker,681 90 75 17 
 58,Cassandra,Judye,Cassandra.Judye@yopmail.com,Cassandra.Judye@gmail.com,doctor,724 83 00 62 
 59,Cyndie,Ethban,Cyndie.Ethban@yopmail.com,Cyndie.Ethban@gmail.com,developer,

@@ -1,14 +1,15 @@
-562 96 78 90
-582 96 78 90
-092 43 90 90
+# ✅ Validated by SensitiBot: No vulnerabilities found
+[DELETED VULNERABILITY]
+[DELETED VULNERABILITY]
+[DELETED VULNERABILITY]
 5441 5431 1481 1111
 Hola
 Adios
-ewo@gmail.com
+[DELETED VULNERABILITY]
 Maaaa
 Antonio
 Antonia
-example@exampl2e.com
+[DELETED VULNERABILITY]
 example@example.com
 123 45 67 89
 ss
